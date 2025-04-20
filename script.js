@@ -51,7 +51,7 @@ function moverPato() {
 }
 
 // Mover o pato a cada 3 segundos
-setInterval(moverPato, 800);
+setInterval(moverPato, 500);
 
 // Clique no pato
 pato.addEventListener('click', () => {
